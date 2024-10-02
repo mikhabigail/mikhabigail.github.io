@@ -1,87 +1,114 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Web Pertemuan 2</title>
+<head>
+    <title>CV Mikha Abigail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#f2f2f2;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color:gainsboro;
+            padding: 20px;
+            
+        }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-style: italic;
+            color: gray;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .profile, .skills, .education, .experience {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
 
-    </head>
-    <body>
-        <!-- Ini untuk uppercase -->
-        Hello World!!<br><hr>
-        Nama saya <b> Mikha </b> <u>Abigail</u>
-        <p>
-            Tempat Lahir di <i><b>USA</b></i>
-        </p>
-        <p>
-            <b><i><u>Ini campur Bold, Italic, Underline</u></i></b>
-        </p>
-        <p style="color:cyan;">
-            Ini text berwarna bro
-        </p>
-        <p style="font-size:50;">
-            Ini ukuran textnya bro
-        </p>
-        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-            Ini untuk tipe textnya
-        </p>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <a href="http://google.com" target="_blank">
-            Ini menuju google
-        </a>
-        <br>
-        <br>
-        Yang mau nitip minum
-        <ul style="list-style-type:square;">
-            <li> Yesi - sweet ice tea</li>
-            <li> Anes - ice matcha latte</li>
+<div class="container">
+    <div class="header">
+        <h1>Mikha Abigail Natannoah Pohan</h1>
+        <p>Telkom University Students</p>
+        <p>Email: mikhabigaill@gmail.com | Phone: 087883757822</p>
+    </div>
+    <img src="selfphoto.jpeg" alt="Profile Photo" style="display: block; margin: 0 auto; border-radius: 0%; width: 200px; height: auto; border: 2px solid">
+
+    <div class="profile">
+        <h2>Profile</h2>
+        <p>I have an inherent curiosity in technology, business, and networks. My enthusiasm for enhancing my expertise and skills became stronger 
+            <br> as a result of the diversity of topics I studied in the course of this degree. Throughout my educational journey, I actively participated in 
+            <br> non-academic activities along with my academic studies.</p>
+
+    </div>
+
+    <div class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><b>Undergraduate Information Systems Student</b> - <b>Telkom University</b> (2022 - Present)</li>
+            <li><b>Science</b> - <b>SMAN 35 Jakarta</b> (2019-2022)</li>
         </ul>
-    <br>
-    <p>Live update kelas hari ini: </p>
-    <img src="cobafoto.jpg" width= "200px">
-    <br>
-    <br>
-    <table border="1" width="100%" style="text-align: center;">
-        <tr height="100px">
-            <td><img src="taylor.jpg" width="90px"></td>
-            <td>baris 1 kolom b</td>
-            <td>baris 1 kolom c</td>
-        </tr>
-        <tr>
-            <td><b>baris 2 kolom a</b></td>
-            <td><i>baris 2 kolom b</i></td>
-            <td><u>baris 2 kolom c</u></td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td colspan="2">2</td>
-        </tr>
-        <tr>
-            <td rowspan="2">merge</td>
-            <td>5</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>6</td>
-        </tr>
-    </table>
-    <br>
-    <form>
-        <input type="text"placeholder="Input Nama"><br>
-        <input type="number"placeholder= "Input NIM"><br>
-        <input type="password"placeholder= "Input Password"><br>
-        <textarrea placeholder="Input Alamat" rows="5"></textarrea>
-        <input type="radio" id="lakilaki" name="jenis_kelamin"><label for="lakilaki">Laki-laki</label>
-        <input type="radio" id="perempuan" name="jenis_kelamin"><label for="perempuan">Perempuan</label>
-        <br>
-        <select>
-            <option value="lakilaki">Laki-laki</option>
-            <option value="perempuan">Perempuan</option>
-        </select>
-        <button type="Submit">Save</button>
-        <button type="Button" onclick="alert('Anda Batal');">Batal</button>
-    </form>
-    </body>
+    </div>
+
+    <div class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><b>Public Relations & Certification ERP Laboratory Staff Member</b> - <b>ERP Laboratory</b> (2024 - Present)
+                <p>- Be the liaison between ERP Laboratory with lecturers, alumni, and external</p>
+                <p>- Carrying out charity activities in the orphanage</p>
+            </li>
+            <li><b> Event Division Member</b> - <b>Koalisi</b> (2024 - Present)
+                <p>- Prepare SICODE activities to teach children in elementary schools</p>
+                <p>- Prepare CYBER (Cyan Berbagi) activities for the incapable people around Bandung</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Microsoft Office</li>
+            <li>Problem Solving</li>
+        </ul>
+    </div>
+
+    <div class="languages">
+        <h2>Languages</h2>
+        <p>Indonesian & English</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Address: Kost Kirana, Bandung, Jawa Barat</p>
+        <p>Email: mikhabigaill@gmail.com</p>
+        <p>Linked In: <a href="https://www.linkedin.com/in/mikhabigail" target="_blank">Mikha Abigail N Pohan</a>
+        <p>Phone: 087883757822</p>
+    </div>
+</div>
+
+</body>
 </html>
